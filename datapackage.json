@@ -1,0 +1,79 @@
+{
+  "resources": [
+    {
+      "name": "screening_profile_data_access",
+      "type": "table",
+      "path": "DEMOGRAPHIC_DATA_ACCESS\\SCREENING_PROFILE_DATA_ACCESS.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "name": "datapackage.json",
+        "fields": [
+          {
+            "name": "PATIENT_MR_ID_VALUE",
+            "type": "integer"
+          },
+          {
+            "name": "ENCOUNTER_ID",
+            "type": "integer"
+          },
+          {
+            "name": "ENCOUNTER_CLASS_CODE",
+            "type": "string"
+          },
+          {
+            "name": "ENCOUNTER_STATUS_CODE",
+            "type": "string"
+          },
+          {
+            "name": "ENCOUNTER_TYPE_CODE",
+            "type": "integer"
+          },
+          {
+            "name": "ENCOUNTER_TYPE_CODE_DESCRIPTION",
+            "type": "string"
+          },
+          {
+            "name": "ENCOUNTER_TYPE_CODE_SYSTEM",
+            "type": "string"
+          },
+          {
+            "name": "ENCOUNTER_LAST_UPDATED",
+            "type": "datetime"
+          },
+          {
+            "name": "CONSENT_LAST_UPDATED",
+            "type": "datetime"
+          },
+          {
+            "name": "CONSENT_DATE_TIME",
+            "type": "datetime"
+          },
+          {
+            "name": "CONSENT_STATUS",
+            "type": "string"
+          },
+          {
+            "name": "CONSENT_POLICY_AUTHORITY",
+            "type": "string"
+          },
+          {
+            "name": "CONSENT_PROVISION_TYPE",
+            "type": "string"
+          },
+          {
+            "name": "SCREENING_LAST_UPDATED",
+            "type": "datetime"
+          },
+          {
+            "name": "SCREENING_STATUS_CODE",
+            "type": "string"
+          }
+        ],
+        "foreignKeys": []
+      }
+    }
+  ]
+}
